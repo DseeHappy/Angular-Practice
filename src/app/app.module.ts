@@ -14,6 +14,7 @@ import { MainCtaComponent } from './home/main-cta/main-cta.component';
 import { SectionOneComponent } from './home/section-one/section-one.component';
 import { SectionTwoComponent } from './home/section-two/section-two.component';
 import { MdbCollapseModule } from 'mdb-angular-ui-kit';
+import { AboutCtaComponent } from './about/about-cta/about-cta.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { MdbCollapseModule } from 'mdb-angular-ui-kit';
     ErrorPageComponent,
     MainCtaComponent,
     SectionOneComponent,
-    SectionTwoComponent
+    SectionTwoComponent,
+    AboutCtaComponent
   ],
   imports: [
     BrowserModule,
