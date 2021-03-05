@@ -3,5 +3,31 @@
 @import '~@fortawesome/fontawesome-free/scss/solid.scss';
 @import '~@fortawesome/fontawesome-free/scss/regular.scss';
 @import '~@fortawesome/fontawesome-free/scss/brands.scss';
- 
+
 @import '~mdb-angular-ui-kit/assets/scss/mdb.scss';
+
+.parallax {
+  background-image: url("/assets/ctabuildings.jpeg");
+
+  min-height: 50rem;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.404);
+  background-color: #111;
+  color: #fff;
+  padding: 1.2rem;
+  font-size: large;
+  letter-spacing: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
